@@ -8,7 +8,7 @@
 
 /* This has to be removed */
 html {
-    background-color: blue;
+    /* background-color: blue; */
   }
 
 .container{
@@ -17,6 +17,12 @@ html {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 40px;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+
 }
 
 .logo{
@@ -49,3 +55,23 @@ header{
     height: 140px;
 }
 
+.title{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.subtitle{
+font-weight: 500;
+font-size: 1.2rem;
+}
+
+
+.btn{
+    background-color: #057EBA;
+    border-radius: .5rem ;
+    padding: .75rem 1.5rem;
+    text-decoration: none;
+    font-size: .9rem;
+}
