@@ -8,7 +8,8 @@
 
 /* This has to be removed */
 html {
-    background-color: blue;
+    /* background-color: blue; */
+    background-color:#2F303A;
   }
 
 .container{
@@ -19,14 +20,13 @@ html {
     padding: 0 40px;
     min-height: 100vh;
 
-
 }
 
 .full-height-grow{
     display: flex;
     flex-direction: column;
-}
 
+}
 
 
 .logo{
@@ -52,12 +52,19 @@ html {
     text-decoration: none;
 }
 
-header{
+header,.main-footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+header{
     height: 140px;
 }
+
+
+
+
 
 .title{
     font-size: 3rem;
