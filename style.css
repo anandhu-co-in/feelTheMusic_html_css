@@ -8,7 +8,7 @@
 
 /* This has to be removed */
 html {
-    /* background-color: blue; */
+    background-color: blue;
   }
 
 .container{
@@ -19,11 +19,15 @@ html {
     padding: 0 40px;
     min-height: 100vh;
 
-    display: flex;
-    flex-direction: column;
-
 
 }
+
+.full-height-grow{
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 .logo{
     display: flex;
@@ -69,6 +73,7 @@ font-size: 1.2rem;
 
 
 .btn{
+    margin-top: 1.5rem;
     background-color: #057EBA;
     border-radius: .5rem ;
     padding: .75rem 1.5rem;
