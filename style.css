@@ -9,7 +9,7 @@
 /* This has to be removed */
 html {
     /* background-color: blue; */
-    background-color:#2F303A;
+    /* background-color:#2F303A; */
   }
 
 .container{
@@ -19,15 +19,24 @@ html {
     margin: 0 auto;
     padding: 0 40px;
     min-height: 100vh;
-
 }
+
+.main-footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-footer{
+
+    display: flex;
+    flex-direction: column;
+
+} 
 
 .full-height-grow{
     display: flex;
     flex-direction: column;
-
 }
-
 
 .logo{
     display: flex;
@@ -39,16 +48,17 @@ html {
     text-decoration: none;
 }
 
-.nav-links{
+.nav-links,.footer-nav ul{
     display: flex;
     list-style: none;
 }
+
 
 .nav-links li{
     margin-left: 20px;   
 }
 
-.nav-links li a{
+.nav-links a,.footer-nav a{
     text-decoration: none;
 }
 
@@ -63,7 +73,10 @@ header{
 }
 
 
-
+.nav-links a:hover,
+.footer-nav a:hover{
+    color: #adadad
+}
 
 
 .title{
