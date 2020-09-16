@@ -9,7 +9,7 @@
 /* This has to be removed */
 html {
     /* background-color: blue; */
-    /* background-color:#2F303A; */
+    background-color:#2F303A;
   }
 
 .container{
@@ -21,17 +21,33 @@ html {
     min-height: 100vh;
 }
 
-.main-footer .container{
-    display: flex;
-    justify-content: space-between;
-}
 
 .main-footer{
-
-    display: flex;
-    flex-direction: column;
-
+    height:50px;  
 } 
+
+.containerFooter{
+    font-family: Poppins,sans-serif;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto; 
+    height: inherit;
+
+}
+
+.footer-nav,.footer-nav a{
+    display: flex;
+    align-items: center;
+}
+
+.footer-nav img{
+    margin-right: 10px;
+}
+
+
+
 
 .full-height-grow{
     display: flex;
@@ -54,7 +70,7 @@ html {
 }
 
 
-.nav-links li{
+.nav-links li,.footer-nav li{
     margin-left: 20px;   
 }
 
@@ -62,7 +78,7 @@ html {
     text-decoration: none;
 }
 
-header,.main-footer{
+header{
     display: flex;
     align-items: center;
     justify-content: space-between;
