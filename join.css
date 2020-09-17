@@ -1,0 +1,142 @@
+.join-main-section{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.join-the-fun{
+    margin: auto;
+}
+
+
+.join-text{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.fun{
+    color: #B853AF;
+    font-size: 5rem;
+}
+
+.join-form{
+    margin: auto;
+    background-color: #1E1E25;
+    width: 375px;
+    max-width: 55%;
+    padding: 2rem 4rem;
+    border-radius: 20px;
+}
+
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.input-group:last-child{
+    margin-bottom: 0;
+}
+
+
+.input-group label{
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+
+.input-group input{
+    outline: none;
+    background: none;
+    border: 1px solid #057EBA;
+    font-size: 1em;
+    border-radius: 5px;
+    padding: .5rem;
+}
+
+.input-group input:focus{
+    border-color: #596da0;
+}
+
+
+@media(max-width:900px){
+
+    .join-main-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .join-form{
+        min-width: 250px;
+        margin-top: 0;
+    }
+
+    .input-group{
+        margin-bottom: 1rem;
+        
+    }
+
+}
+
+
+
+.join-page-circle1{
+    width: 20vw;
+    height: 20vw;
+    /* background-color:rgb(5, 126, 186,.5); */
+    position: absolute;
+    /* border-radius: 50%; */
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+
+    z-index: -1;
+  }
+
+  .join-page-circle1::before{
+      transform: translate(-30%,20%);
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      background-color:rgb(188, 58, 128,.1);
+      
+  }
+
+  .join-page-circle2{
+    width: 20vw;
+    height: 20vw;
+    /* background-color:rgb(5, 126, 186,.5); */
+    position: absolute;
+    /* border-radius: 50%; */
+    top:0;
+    left: 25vw;
+    overflow: hidden;
+    z-index: -1;
+    max-width: 250px;
+    max-height: 250px;
+  }
+
+  .join-page-circle2::before{
+      transform: translate(0,-30%);
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      background-color:rgb(32, 87, 178,.1);
+      
+  }
+
+
+  @media(max-height:650px){
+
+
+    .join-form{
+        margin-bottom: 50px;
+    }
+
+
+}
