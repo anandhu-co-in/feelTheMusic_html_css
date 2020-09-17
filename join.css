@@ -80,7 +80,6 @@
 }
 
 
-
 .join-page-circle1{
     width: 20vw;
     height: 20vw;
@@ -132,7 +131,6 @@
 
 
   @media(max-height:650px){
-
 
     .join-form{
         margin-bottom: 50px;
